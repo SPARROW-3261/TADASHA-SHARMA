@@ -50,8 +50,8 @@ export function Footer() {
               <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-ink/80 font-semibold">
                 <Link href="/" className="hover:text-navy transition">Home</Link>
                 <Link href="/about" className="hover:text-navy transition">About</Link>
-                <Link href="/service" className="hover:text-navy transition">Service</Link>
-                <Link href="/writings" className="hover:text-navy transition">Writings</Link>
+                <Link href="/career" className="hover:text-navy transition">Career</Link>
+                <Link href="/work" className="hover:text-navy transition">Work</Link>
                 <Link href="/gallery" className="hover:text-navy transition">Gallery</Link>
                 <Link href="/contact" className="hover:text-navy transition">Contact</Link>
               </div>
