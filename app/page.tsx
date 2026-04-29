@@ -39,7 +39,7 @@ export default function HomePage() {
               Leading Jharkhand Police with over three decades of experience in investigation, administration, and public service.
             </p>
 
-            <div className="mt-10 flex flex-wrap items-center gap-4">
+            <div className="mt-10 hidden flex-wrap items-center gap-4 lg:flex">
               <Link
                 href="/about"
                 className="inline-flex items-center rounded-full border border-[#b98a53] bg-[#f3e1c8] px-7 py-3 text-xs font-semibold uppercase tracking-[0.3em] text-[#5b3b16] shadow-[0_8px_20px_rgba(155,107,45,0.22)] transition hover:bg-[#eed4b2]"
@@ -68,6 +68,22 @@ export default function HomePage() {
             sizes="(max-width: 1024px) 92vw, 40vw"
             className="w-full max-h-[520px] object-cover rounded-[2.5rem]"
           />
+        </div>
+
+        <div className="flex flex-wrap items-center gap-4 lg:hidden">
+          <Link
+            href="/about"
+            className="inline-flex items-center rounded-full border border-[#b98a53] bg-[#f3e1c8] px-7 py-3 text-xs font-semibold uppercase tracking-[0.3em] text-[#5b3b16] shadow-[0_8px_20px_rgba(155,107,45,0.22)] transition hover:bg-[#eed4b2]"
+          >
+            View Biography
+          </Link>
+
+          <Link
+            href="/gallery"
+            className="inline-flex items-center rounded-full border border-navy bg-navy px-8 py-3 text-xs font-semibold uppercase tracking-[0.3em] text-white shadow-[0_10px_24px_rgba(16,34,53,0.3)] transition hover:bg-[#1f3953]"
+          >
+            Explore Gallery
+          </Link>
         </div>
         </Container>
       </section>
@@ -170,7 +186,7 @@ export default function HomePage() {
             ))}
 
             <Link
-              href="/service"
+              href="/career"
               className="inline-flex text-sm uppercase tracking-[0.22em] text-navy"
             >
               View Full Journey
